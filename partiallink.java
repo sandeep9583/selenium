@@ -17,6 +17,8 @@ public class partiallink {
         driver.findElement(By.linkText("Click her to navigate to google page")).click();
         System.out.println("The pafe title is : "+driver.getTitle());
         driver.navigate().back();
+        
+        
     
 
 
