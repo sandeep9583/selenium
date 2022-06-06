@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Suite1">
+    <classes>
+        <class name = "Paramerterization.xmlLoginDataTest">
+            <parameter name ="sun" value ="Nellima"/>
+            <paramter name="sped" value="neell1234"/>
+        </class>        
+    </classes>
+</suite>
