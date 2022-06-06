@@ -20,7 +20,7 @@ public class TestNgCSV {
 
     WebDriver driver;
     @Test
-    public  void TestExcel(){    
+    public  void TestExcel() throws Exception{    
         CSVReader reader = new CSVReader(new FileReader("C:/Selenium/csvdemo.csv"));
         List<String[]> records = reader.readAll();
         Iterator<String[]> iterator = records.iterator();
