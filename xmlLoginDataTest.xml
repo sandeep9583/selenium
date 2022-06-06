@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name ="Suite1">
     <classes>
-        <class name = "Paramerterization.xmlLoginDataTest">
+        <class name = "TestNG.xmlLoginDataTest">
             <parameter name ="sun" value ="Nellima"/>
-            <paramter name="sped" value="neell1234"/>
+            <parameter name="spwd" value="neell1234"/>
         </class>        
     </classes>
 </suite>
