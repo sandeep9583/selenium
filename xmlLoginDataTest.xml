@@ -3,7 +3,7 @@
     <classes>
         <class name = "Paramerterization.xmlLoginDataTest">
             <parameter name ="sun" value ="Nellima"/>
-            <paramter name="spwd" value="neell1234"/>
+            <parameter name="spwd" value="neell1234"/>
         </class>        
     </classes>
 </suite>
