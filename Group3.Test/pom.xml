@@ -3,6 +3,7 @@
   <groupId>Group3</groupId>
   <artifactId>Group3.Test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
 <dependency>
@@ -54,5 +55,4 @@
             </plugin>
         </plugins>
     </build>
-  
 </project>
