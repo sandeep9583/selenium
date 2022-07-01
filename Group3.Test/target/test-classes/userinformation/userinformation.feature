@@ -16,7 +16,7 @@ When user enter father name <ftn>
 When user enter date of birth <dob>
 When user enter gender <g>
 When user enter mobile <mo>
-When user enter email <em>
+When user enter email <em>  
 When user enter landline <lnn>
 When user enter communication <com>
 When user enter residence address <ra>

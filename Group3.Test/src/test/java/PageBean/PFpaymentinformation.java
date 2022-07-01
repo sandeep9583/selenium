@@ -3,6 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 public class PFpaymentinformation {
@@ -11,11 +12,11 @@ WebDriver driver;
 	@CacheLookup
 	WebElement pftitle;
 		
-	@FindBy(xpath ="//*[@id=\"txtCardholderName\"]")
+	@FindBy(how = How.CLASS_NAME,using="Format1")
 	@CacheLookup
 	WebElement pfcard;
 	
-	@FindBy(id="txtDebit")
+	@FindBy(how = How.NAME,using="debit")
 	@CacheLookup
 	WebElement pfdebit;
 	
